@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f7;
+}
+
+.section-content{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 80px;
+    transition: all 400ms ease-in;
+}
+
+.carousel-slide{
+    height: 100px;
+    max-width: 850px;
+}
+
+.carousel-item{
+    padding: 10px !important;
+    text-align: center;
+    max-width: 790px;
+}
+
+.carousel-item p{
+    font-size: 14px;
+    margin: auto !important;
+}
+
+.carousel-control-prev{
+    left: 69px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 400ms ease;
+}
+
+.carousel-control-next{
+    right: 69px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 400ms ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-size: 60% 60%;
+}
+
+.carousel-control-next-icon{
+    background-position: 60%;
+}
+
+/* Sub-header */
+
+.store-2nd{
+    padding: 80px 0 64px !important;
+    background-color: #f5f5f7;
+}
+
+.sub-header{
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    justify-content: space-between;
+    margin: auto !important;
+}
+
+.heading{
+    display: flex;
+    max-width: 75%;
+    justify-content: center;
+}
+
+.sub-header{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+.sub-header span{
+    color: black;
+}
+
+.grey{
+    color: #6E6E73;
+}
+
+.help,
+.visit{
+    display: flex;
+    font-size: 14px;
+    line-height: 1.42859;
+}
+
+.help img,
+.visit img{
+    width: 40px;
+    margin-right: 10px !important;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.help{
+    padding-bottom: 16px !important;
+}
+
+
+.visit{
+    padding-bottom: 10px !important;
+}
+
+.generic{
+    font-size: 14px;
+}
+
+.generic a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #06c;
+}
+
+.generic a:hover{
+    text-decoration: underline;
+}
+
+/* The 3rd Slide */
+
+.third-slide{
+    height: 160px;
+    max-width: 89%;
+    margin-left: 11% !important;
+    background-color: aqua;
+    transition: all 400ms ease;
+}
+
+.third-slide:hover{
+    margin-left: 0 !important;
+    max-width: 100%;
+}
+
+.lets img{
+    width: auto;
+    max-height: 78px;
+}
+
+.lets{
+    display: flex;
+    flex-direction: row;
+}
+
+.third-btn{
+    background-color: #000;
+}
+
+
+
+@media (max-width: 1068px) {
+    
+    .carousel-control-prev{
+        left: 15px;
+        top: 25px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-control-next{
+        right: 15px;
+        top: 25px;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* The third slide */
+
+    .third-slide{
+        margin: auto !important;
+        width: 95%;
+    }
+
+
+}
+
+
+    @media (max-width: 735px) {
+
+        .carousel-control-prev{
+            left: 5px;
+            top: 15px;
+            width: 30px;
+            height: 30px;
+        }
+    
+        .carousel-control-next{
+            right: 5px;
+            top: 15px;
+            width: 30px;
+            height: 30px;
+        }
+        
+
+        .carousel-item{
+            max-width: 370px;
+        }
+
+        .carousel-item p{
+            font-size: 10px;
+        }
+
+        .section-content{
+            height: 60px;
+        }
+
+    }
